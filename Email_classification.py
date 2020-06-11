@@ -1,14 +1,9 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed May 13 16:49:51 2020
-
-@author: vw178e
-"""
-
+#Import Libraries
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
+#Import dataset
 dataset = pd.read_csv('emails1.csv')
 df=dataset.iloc[:,3:] # removing first three columns
 
